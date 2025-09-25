@@ -23,7 +23,7 @@ namespace AltTester.BuildScripts
             instrumentationSettings.AltServerPort = 13000;
             instrumentationSettings.AppName = "__default__";
             instrumentationSettings.ResetConnectionData = true;
-            AltBuilder.InsertAltInScene(SceneManager.GetSceneByBuildIndex(0).path, instrumentationSettings);
+            AltBuilder.InsertAltInScene("Assets/Scenes/SampleScene.unity", instrumentationSettings);
         }
     }
 }
